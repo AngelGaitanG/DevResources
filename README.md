@@ -1,6 +1,3 @@
-Aquí tienes un ejemplo para el README de tu repositorio:
-
----
 
 # Bienvenidos a **DevResources** 👋
 
@@ -21,4 +18,3 @@ Si tienes alguna pregunta, sugerencia, o simplemente quieres charlar sobre códi
 
 Estoy aquí para ayudarte en tu viaje como desarrollador. ¡Gracias por ser parte de esta comunidad!
 
----
