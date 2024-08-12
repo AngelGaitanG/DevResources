@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+
+    padding: 10px;
+}
+
+.container {
+    background: #EFF0F4;
+    height: 92vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 50px;
+
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .left .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #242425;
+    border-radius: 50%;
+    position: relative;
+}
+
+nav .left .logo-button {
+    width: 30px;
+    height: 30px;
+    background-color: #242425;
+    border-radius: 50%;
+    border: 2px solid #9D9EA2;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav .left ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #5e5e5e;
+    font-weight: bold;
+}
+
+nav .right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 1em;
+}
+
+nav .right button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #242425;
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    margin-top: 1em;
+    height: 85%;
+
+}
+
+.section-a {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+}
+
+.products {
+    width: 50%;
+    height: 100%;
+    background-color: #242425;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-column {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.blog {
+    width: 100%;
+    height: 50%;
+    background-color: #D8D9DD;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    height: 50%;
+
+    border-radius: 25px;
+
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    background-color: #B287FD;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+    width: 50%;
+    height: 100%;
+    background-color: #B1EF42;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
